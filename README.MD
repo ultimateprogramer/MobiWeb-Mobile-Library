@@ -51,6 +51,6 @@ We currently have developed only on J2ME and expect to roll-out to other platfor
 The code above sends a request to the server and combines multiple fields into one server request.
 
 * Parameters A and B are both sent to the server as hidden fields.
-* Parameter C and D are sent as files or file uploads via HTTP.
+* Parameter C and D are sent as files or file uploads via HTTP. They can be processed using the normal HTTP file processing commands.
 
 This means that the server code will need to handle these requests and on successful execution the mobile client is told of the result ("error") means something went wrong.
